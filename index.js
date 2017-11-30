@@ -16,7 +16,7 @@ class ServerlessPlugin {
   }
 
   log(message) {
-    this.serverless.cli.log("Branch2Stage: " + message);
+    this.serverless.cli.log("gitref-stage: " + message);
   }
 
   handler(err, stdout, stderr) {
